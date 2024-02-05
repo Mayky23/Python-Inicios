@@ -1,3 +1,5 @@
+# Miguel Ángel Roldán de Haro
+
 from Controller import Ficha_nueva, Imprimir_Fichas, get_Ficha_Mascota
 
 
@@ -20,12 +22,14 @@ def main():
         else:
             print("Opción no válida. Por favor, seleccione 1, 2 o 3.")
 
-        print("_________________________________________")
         continuar = input("¿Desea realizar otra operación? (s/n): ")
-        
-        if continuar.lower() != 's':
+
+        if continuar.lower() == 'n':
             print("CERRANDO SESIÓN...")
-            break
+            print("_________________________________________")
+
+        elif continuar.lower() != 's':
+            print("Entrada inválida. Por favor, ingrese 's' o 'n'.")
 
 def banner():
     cartel = r"""
