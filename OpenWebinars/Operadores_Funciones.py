@@ -120,6 +120,10 @@ num = 3.14159
 print(round(num))  # Salida: 3
 print(round(num, 2))  # Redondeado a 2 decimales, salida: 3.14
 
+# 5. ord()
+caracter_c = 'c'
+valor_ascii_c = ord(caracter_c) # sacar el calor ascii de una letra 
+print("El valor ASCII de", caracter_c, "es:", valor_ascii_c)
 
 # ---------------------------------
 # ---------------------------------
