@@ -16,11 +16,17 @@ a biblioteca math para calcular la raíz cuadrada y la función round() para red
 """
 import math
 
-numUser = input("Inserte un número entero positivo: ")
+numUser = int(input("Inserte un número entero: "))
 
 
-r_cuadrada = math.sqrt(numUser)
+if numUser > 10 :
+    print("\nEl número ingresado es mayor que 10")
+
+else:
+    print("\nEl número ingresado es igual o menor que 10")
+
+r_cuadrada = math.sqrt(abs(numUser))
 
 num_redondeo = round(r_cuadrada, 2)
 
-print("La raíz cuadrada de", numUser, "es", num_redondeo)
+print("\nLa raíz cuadrada de", numUser, "es", num_redondeo)
