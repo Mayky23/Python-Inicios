@@ -30,8 +30,9 @@ r_resta = 5 - 3
 r_multiplicacion = 5 * 5
 r_div = 7 / 2
 r_modulo = 10 % 3
+r_elevado = 5 ** 3
 
-print("resultados: ", r_suma, r_resta, r_multiplicacion, r_div, r_modulo)
+print("resultados: ", r_suma, r_resta, r_multiplicacion, r_div, r_modulo, r_elevado)
 
 # Utilizar operadores de comparación para comparar valores y determinar si son iguales, mayores, menores, etc.
 a = 5

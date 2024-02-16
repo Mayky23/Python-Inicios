@@ -133,4 +133,3 @@ import math # libreria de operaciones matemáticas
 numero = 16
 raiz_cuadrada = math.sqrt(numero)
 
-
