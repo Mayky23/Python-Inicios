@@ -1,0 +1,34 @@
+Ejercicio: Simulación de gestión de hospital en Python
+
+Objetivo:
+Desarrollar un programa en Python que simule la gestión básica de un hospital, utilizando tres clases principales: Paciente, Cama y Hospital. El programa permitirá la admisión, registro y consulta de pacientes, así como la gestión de camas disponibles.
+
+Descripción:
+El programa constará de tres clases:
+
+Paciente: Esta clase representará a cada paciente del hospital y contendrá atributos como nombre, edad, género y estado de salud. El estado de salud del paciente será uno de los siguientes: "Ingresado", "En observación", "En tratamiento", "Esperando atención", "En cirugía", "En consulta" o "Dado de alta".
+
+Cama: Esta clase representará las camas del hospital y contendrá un número de identificación y un estado que indicará si la cama está disponible o no. El total debe ser 100 camas máximo
+
+Hospital: Esta clase representará al hospital en su conjunto y contendrá métodos para la admisión, salida y consulta de pacientes, así como la gestión de camas disponibles y ocupadas (decir num de camas ocupadas / libres).
+
+Funcionalidades del programa:
+
+Admitir un paciente: El usuario podrá ingresar los datos del paciente y este será asignado a una cama disponible si hay alguna disponible.
+
+Registrar la salida de un paciente: El usuario podrá registrar la salida de un paciente, liberando la cama que ocupaba para que esté disponible nuevamente.
+
+Consultar información de pacientes: El usuario podrá buscar pacientes por su nombre y obtener información detallada sobre su estado de salud y la cama que ocupan, si están ingresados.
+
+Consultar disponibilidad de camas: El usuario podrá ver cuántas camas están ocupadas y cuántas están disponibles en el hospital.
+
+Requerimientos técnicos:
+Utilizar tres clases principales: Paciente, Cama y Hospital.
+Implementar métodos en la clase Hospital para realizar las funcionalidades requeridas.
+Utilizar listas para gestionar las camas disponibles y ocupadas en el hospital.
+El programa debe ser modular y fácilmente legible, con comentarios explicativos donde sea necesario.
+Consideraciones adicionales:
+
+La capacidad máxima del hospital puede ser definida como una constante en el programa.
+Se puede simular la generación automática de datos de pacientes para simplificar las pruebas del programa.
+Se debe implementar una interfaz de usuario simple que permita al usuario interactuar con el programa de manera intuitiva.
