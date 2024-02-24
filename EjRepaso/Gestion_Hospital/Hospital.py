@@ -1,4 +1,4 @@
-from Ej_Repaso.Gestion_Hospital.Pacientes import Paciente
+from EjRepaso.Gestion_Hospital.Pacientes import Paciente
 
 class Hospital: 
 
@@ -19,6 +19,11 @@ class Hospital:
         edad = int(input("Ingrese la edad del paciente: "))
         genero = input("Ingrese el género del paciente (m / f): ")
         estado = input("Ingrese el estado del paciente: ")
+        
+        if estado not in Paciente.estado:
+            print("Estado de paciente no válido.")
+            return
+        
         ficha_admision = Paciente(nombre, edad, genero, estado)
         Hospital.set_Ficha_Paciente(ficha_admision)
 
